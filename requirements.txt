@@ -13,3 +13,4 @@ pydantic== 2.11.5
 markdownify==0.14.1
 httpx==0.28.1
 readabilipy==0.3.0
+pillow==11.0.0
