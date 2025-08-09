@@ -16,8 +16,14 @@ import readabilipy
 # --- Load environment variables ---
 load_dotenv()
 
-TOKEN = 'amit123'
-MY_NUMBER = '918637823334'
+# TOKEN = 'amit123'
+# MY_NUMBER = '918637823334'
+
+# TOKEN = 'amit123'
+# MY_NUMBER = '918637823334'
+
+TOKEN = 'test123'
+MY_NUMBER = '918249995855'
 
 assert TOKEN is not None, "Please set AUTH_TOKEN in your .env file"
 assert MY_NUMBER is not None, "Please set MY_NUMBER in your .env file"
