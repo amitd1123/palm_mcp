@@ -91,7 +91,7 @@ def predict_palm(base64image_string ,query):
     return response.candidates[0].content.parts[0].text
 
 
-def process_palm_image(image_path: str = "mypalm.jpg", query: str = "Read this palm and tell me about the future") -> str:
+def process_palm_image(image_path: str = "mypalm.jpg", query: str = "Read this palm and tell which company i will get job in and when ,also abou love life,health") -> str:
     """
     Process a palm image file and get a prediction from the model.
     
